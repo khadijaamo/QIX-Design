@@ -1,0 +1,585 @@
+html {
+height:100%;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Space Mono', monospace;
+background-color: #fff;
+}
+
+a:hover {
+text-decoration: overline;
+}
+
+.arabic {
+font-family: 'Mada', sans-serif;
+}
+
+footer {
+text-align: center;
+font-size: 15px;
+padding-top: 110px;
+border-top: 5px solid black;
+padding-bottom: 20px;
+font-weight: bold;
+}
+
+/* index page */
+.desktop ul {
+text-align: center;
+top: 0;
+z-index: 100;
+position: fixed;
+width: 100%;
+}
+
+.desktop ul li, .subnav {
+display: inline;
+}
+
+.subnav-content a {
+text-decoration: none;
+color: black;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 13%;
+  width: 100%;
+  z-index: 1;
+  line-height: 28px;
+}
+
+
+
+.subnav-content a:hover {
+text-decoration: underline;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.desktop ul li a {
+text-decoration: underline;
+text-align: center;
+color: black;
+padding: 10px;
+}
+
+.button-non {
+display: none;
+}
+
+#myDIV {
+display: none;
+}
+
+
+.intro-section {
+padding-top: 200px;
+font-size: 20px;
+padding-bottom: 200px;
+}
+
+
+.intro-section h1 {
+text-align: center;
+}
+
+.intro-section .typewriter {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 18em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgb(0,0,0);}
+  to{border-right-color: transparent;}
+}
+
+
+
+.Overview-section {
+    background-color: white;
+    background-image: url('image-1.jpg');
+    background-size: 50%;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: fixed;
+    height: 500px;
+
+}
+
+
+
+.Objectives-section {
+    background-color: white;
+    background-image: url('image-2.jpeg');
+    background-size: 50%;
+    background-repeat: repeat-y;
+    background-position: left;
+    background-attachment: fixed;
+    height: 500px;
+
+}
+
+
+.col-left a {
+color: black;
+padding-left: 17%;
+}
+
+.col-left h2{
+padding-left: 15%;
+padding-top: 10%;
+}
+
+.col-left p {
+padding-left: 4.3%;
+}
+
+
+.col-right a {
+color: black;
+padding-left: 70%;
+}
+
+.col-right h2{
+padding-left: 65%;
+padding-top: 6%;
+}
+
+.col-right p {
+padding-left: 60%;
+}
+
+
+#part-table {
+  border-collapse: collapse;
+   width: 100%;
+}
+
+
+#part-table td, #part-table th {
+  border: 1px solid #ddd;
+   padding: 8px;
+}
+
+#part-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#part-table tr:hover {background-color: #ddd;}
+
+#part-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: black;
+}
+
+#part-table .first-one {
+  background-color: white;
+}
+
+
+#part-table .down:hover{
+  background-color: red;
+}
+
+.me-box-1 {
+  width: 400px;
+  height: 220px;
+  padding: 50px;
+  border: 5px solid #D17365;
+  background: white;
+  top: 44%;
+  left: 35%;
+  margin-top: 10%;
+margin-left: 30%;
+
+}
+
+.me-box-text-1 {
+  font-size: 50px;
+  margin: 5%;
+}
+
+
+.me-box-3 {
+display: none;
+}
+
+
+.me-box-1:hover + .me-box-3  {
+display: block;
+}
+
+.me-box-3 {
+  width: 400px;
+  height: 250px;
+  padding: 50px;
+  border: 5px solid #D17365;
+  background: white;
+  top: 48%;
+  left: 37%;
+margin-left: 30%;
+}
+
+.me-box-3 a {
+color: black;
+}
+
+
+.about-page1 {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.about-page2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.about-page3 {
+    text-align: center;
+}
+
+
+.masking {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: url(image-1.jpg);
+background-attachment: fixed;
+text-align: center;
+font-size: 50px;
+}
+
+
+.connect-page1 {
+  text-align: center;
+      padding-top: 20%;
+}
+
+
+.connect-page2 {
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 20%;
+}
+
+.part-page1 {
+
+  text-align: center;
+  padding-top: 20%;
+
+}
+
+
+
+/* resp */
+
+
+@media screen and (max-width: 880px) {
+
+
+  .desktop {
+  display: none;
+  }
+
+  .button-non {
+  display: block;
+  float: right;
+  font-family: 'Space Mono', monospace;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 10px;
+  right: 0;
+  z-index: 100;
+  position: fixed;
+  }
+
+  .button-non:hover {
+  text-decoration: overline;
+  }
+
+  #myDIV ul li a{
+  color: black;
+  }
+
+  #myDIV ul {
+  list-style: none;
+  }
+
+
+
+  #myDIV {
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  .Overview-section {
+      background-color: #F3EFCB;
+      background-image: none;
+      background-size: 0%;
+      background-repeat: none;
+      background-position: none;
+      background-attachment: none;
+      height: 400px;
+
+  }
+
+
+  .Objectives-section {
+      background-color: #F3EFCB;
+      background-image: none;
+      background-size: 0%;
+      background-repeat: none;
+      background-position: none;
+      background-attachment: none;
+      height: 400px;
+
+  }
+
+
+  .col-left a {
+  color: black;
+  padding-left: 35%;
+  }
+
+  .col-left h2{
+  padding-left: 35%;
+
+  }
+
+  .col-left p {
+    padding-left: 15%;
+    padding-top: 5%;
+  }
+
+
+
+  .Objectives-section  h2 {
+  padding-left: 40%;
+  }
+
+  .Objectives-section p {
+    padding-left: 9%;
+  }
+
+  .me-box-1 {
+    width: 400px;
+    height: 220px;
+    padding: 50px;
+    border: 5px solid #D17365;
+    background: white;
+    top: 44%;
+    left: 35%;
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+
+.me-box-3 {
+  width: 400px;
+  height: 250px;
+  padding: 50px;
+  border: 5px solid #D17365;
+  background: white;
+  top: 48%;
+  left: 37%;
+margin-left: 17%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/* mob */
+
+
+@media screen and (max-width: 500px) {
+
+
+  .desktop {
+  display: none;
+  }
+
+  .button-non {
+  display: block;
+  float: right;
+  font-family: 'Space Mono', monospace;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 10px;
+  right: 0;
+  z-index: 100;
+  position: fixed;
+  }
+
+  .button-non:hover {
+  text-decoration: overline;
+  }
+
+  #myDIV ul li a{
+  color: black;
+  }
+
+  #myDIV ul {
+  list-style: none;
+  }
+
+
+
+  #myDIV {
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+
+  .intro-section h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.intro-section .typewriter {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+
+
+  .Overview-section {
+      background-color: #F3EFCB;
+      background-image: none;
+      background-size: 0%;
+      background-repeat: none;
+      background-position: none;
+      background-attachment: none;
+      height: 400px;
+
+  }
+
+
+  .Objectives-section {
+      background-color: #F3EFCB;
+      background-image: none;
+      background-size: 0%;
+      background-repeat: none;
+      background-position: none;
+      background-attachment: none;
+      height: 400px;
+
+  }
+
+
+  .col-left a {
+  color: black;
+  padding-left: 35%;
+  }
+
+  .col-left h2{
+  padding-left: 35%;
+
+  }
+
+  .col-left p {
+    padding-left: 15%;
+  padding-top: 1%;
+  font-size: 15px;
+  }
+
+
+
+  .Objectives-section  h2 {
+      padding-left: 30%;
+  }
+
+  .Objectives-section p {
+    padding-left: 9%;
+  }
+
+  .me-box-1 {
+    width: 400px;
+    height: 220px;
+    padding: 50px;
+    border: 5px solid #D17365;
+    background: white;
+    top: 44%;
+    left: 35%;
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+
+.me-box-3 {
+  width: 400px;
+  height: 250px;
+  padding: 50px;
+  border: 5px solid #D17365;
+  background: white;
+  top: 48%;
+  left: 37%;
+margin-left: 17%;
+}
+
+
+
+
+}
