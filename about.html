@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap-grid.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mada&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/nav.js"></script>
+    <title>about us</title>
+  </head>
+
+  <header>
+
+    <!-- start of nav -->
+
+       <nav class="desktop">
+         <ul>
+             <li><a href="index.html">homepage</a></li>
+             <li><a href="about.html">about us</a></li>
+             <li><a href="connect.html">connect</a></li>
+             <li><a href="participants.html">participants</a></li>
+             <li><a href="contact.html">contact us</a></li>
+
+
+
+         </ul>
+       </nav>
+
+       <!-- nav for mobile users -->
+
+       <button onclick="myFunction()" class="button-non">menu</button>
+       <div id="myDIV">
+         <ul>
+           <li><a href="index.html">homepage</a></li>
+           <li><a href="about.html">about us</a></li>
+           <li><a href="connect.html">connect</a></li>
+           <li><a href="participants.html">participants</a></li>
+           <li><a href="contact.html">contact us</a></li>
+
+         </ul>
+     </div>
+
+
+    <!-- end of nav -->
+
+
+  </header>
+
+
+
+  <body>
+
+
+    <h1 class="about-page1">About us: </h1>
+    <p class="about-page2">Qatar is booming with Infrastructure in all the sectors, Qatar is striving for excellence to build the Internet more faster,
+      <br> reliable and economical to be part of the global initiative. Qatar Internet Exhchange point establishment is one such step <br>
+      taken up by the government of Qatar.</p>
+
+      <h3 class="about-page3">Our Participants</h3>
+
+      <div class="masking">
+
+        <h4>Ooredoo</h4>
+        <h4>Vodafone</h4>
+        <h4>Qatar University</h4>
+        <h4>GBI</h4>
+
+      </div>
+
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+  </body>
+
+  <footer>Qatar Internet Exchange Point 2020</footer>
+
+
+</html>
